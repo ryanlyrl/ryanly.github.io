@@ -28,13 +28,27 @@ a:hover {
 }
 
 .jumbotron {
+	background-image: url(bg_img.jpg);
+	background-repeat: no-repeat; 
 	background-color: white;
+	background-position: 100%;
+	background-size: contain;
 	text-align: right;
-	padding: 200px;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	width: 150%;
 }
 
 .text-box {
-	background-color: rgba(0,0,0,0.1);
+	background-color: rgba(0,0,0,0.65);
 	width: 50%;
-	float: right;
+	padding: 1px;
+	text-align: center;
+	color: white;
+	border: solid;
+	border-color: black;
+}
+
+button{
+	background-color: white;
 }
