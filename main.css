@@ -1,54 +1,49 @@
-header {
-	font-family: 'Roboto', sans-serif;
-	padding-top: 30px;
+.header {
+	font-family: 'Lucida Console', sans-serif;
+	font-size: 3em;
 }
 
-header h1{
-	font-size: 48px;
-}
-
-header span{
-	padding-top: 40px;
-	margin: 3px;
-	font-size: 20px;
-}
-
-span {
-	padding: 10px;
+.header-info{
+	font-family: 'Raleway', sans-serif;
 }
 
 a {
 	text-decoration: none;
-	color: black;
+	color: silver;
 }
 
 a:hover {
-	color: grey;
+	color: white;
 	text-decoration: none;
 }
 
-.jumbotron {
-	background-image: url(bg_img.jpg);
-	background-repeat: no-repeat; 
-	background-color: white;
-	background-position: 100%;
-	background-size: contain;
-	text-align: right;
-	padding-top: 200px;
-	padding-bottom: 200px;
-	width: 150%;
-}
-
-.text-box {
-	background-color: rgba(0,0,0,0.65);
-	width: 50%;
-	padding: 1px;
+body{
+	margin-top: 6em;
 	text-align: center;
 	color: white;
-	border: solid;
-	border-color: black;
+	background-color: #2F4F4F;
 }
 
-button{
-	background-color: white;
+.jumbotron{
+	background-color: rgba(255, 255, 255, 0.3);
+}	
+
+.row-margin {
+	margin-top: 2.5em;
+}
+
+.first {
+	color: cyan;
+}
+
+.second {
+	color: cyan;
+}
+
+.navi{
+	color: black;
+	position: relative;
+	top:-2.5em;
+	font-size: 1.5em;
+	font-family: 'Raleway', sans-serif;
 }
